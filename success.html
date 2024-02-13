@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Pookie</title>
+<!-- Adding Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  body, html, .container-fluid {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Handwriting', cursive;
+    height: 100%;
+    width: 100%;
+  }
+
+  .main-div {
+    height: 100vh;
+    width: 100vw;
+    background-image: radial-gradient(circle, #a61f69 5%, #f757b2 45%, #fca3b7 100%);
+    /* Fallback for older browsers */
+    background-color: #fca3b7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; 
+    animation: rotate 5s linear infinite;
+  }
+
+  .main-text {
+    color: #fff;
+    /* font-family: Arial, sans-serif; */
+    font-size: 25px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    height: 49px;
+    width: 100px;
+    background-color: #9d0759;    
+    border: solid;
+    border-width: 2px;
+    border-color: #fca3b7;
+    color: #fff;
+    border-radius: 47%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #fca3b7;
+    color: #9d0759;
+    border-color: #9d0759;
+  }
+
+  .button:click {
+    background-color: #fca3b7;
+    color: #9d0759;
+    border-color: #9d0759;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .button {
+      display: block;
+      margin: 10px auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="main-div">      
+    <img src="hellokittycelebrate.gif" alt="Center Image" class="center-image">
+    <div style="margin-top: 50px;">
+      <p class="main-text">Yeeyy!! Love you ♡</p>
+    </div>
+  </div>
+</div>
+
+<!-- Adding Bootstrap JS and jQuery for Bootstrap functionalities -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
